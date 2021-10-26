@@ -13020,7 +13020,7 @@ paths:
       tags:
         - API Specifications
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
@@ -13079,7 +13079,7 @@ paths:
       tags:
         - API Specifications
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
@@ -13139,7 +13139,7 @@ paths:
       tags:
         - API Specifications
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
@@ -13206,7 +13206,7 @@ paths:
       tags:
         - API Specifications
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
