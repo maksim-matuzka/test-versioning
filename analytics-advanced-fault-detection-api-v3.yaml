@@ -218,7 +218,7 @@ paths:
         The get model information web service returns the parameters of the
         model and information related to the training set.
 servers:
-  - url: 'https://sandbox.exchange.se.com/analytics-advanced-fault-detection/'
+  - url: 'https://sandbox.exchange.se.com/analytics-advanced-fault-detection'
     description: Sandbox
   - url: 'https://api.exchange.se.com/analytics-advanced-fault-detection'
     description: Production
