@@ -22,14 +22,14 @@ paths:
                 $ref: '#/components/schemas/ExecutionResults_createModel'
           description: Execution results
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
             enum:
-              - '2.0'
+              - '3.0'
             type: string
-            default: '2.0'
+            default: '3.0'
           description: The API version to use
         - in: query
           name: format
@@ -65,12 +65,12 @@ paths:
       parameters:
         - schema:
             enum:
-              - '2.0'
+              - '3.0'
             type: string
-            default: '2.0'
+            default: '3.0'
           name: api-version
           description: The API version to use
-          in: query
+          in: header
           required: true
         - schema:
             enum:
@@ -128,14 +128,14 @@ paths:
                 $ref: '#/components/schemas/ExecutionResults_applyModel'
           description: Execution results
       parameters:
-        - in: query
+        - in: header
           name: api-version
           required: true
           schema:
             enum:
-              - '2.0'
+              - '3.0'
             type: string
-            default: '2.0'
+            default: '3.0'
           description: The API version to use
         - in: query
           name: format
@@ -172,12 +172,12 @@ paths:
       parameters:
         - schema:
             enum:
-              - '2.0'
+              - '3.0'
             type: string
-            default: '2.0'
+            default: '3.0'
           name: api-version
           description: The API version to use
-          in: query
+          in: header
           required: true
         - schema:
             enum:
