@@ -1255,7 +1255,7 @@ components:
         Results:
           $ref: '#/components/schemas/ExecutionOutputs_getModelInformation'
 info:
-  version: 1.2.0
+  version: 1.2.1
   title: Advanced Fault Detection API
   description: >
     # Overview
